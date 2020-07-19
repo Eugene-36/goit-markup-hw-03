@@ -1,0 +1,148 @@
+:root{
+    --primary-text-color:#757575;
+    --accent-color:#2196F3;
+    --head-color: #212121;
+    --white-color:#FFFFFF 
+    }
+    
+    body{
+        background-color: FFFFFF;
+        color:#757575 ;
+        font-family: Roboto,sans-serif;
+        letter-spacing: 0.03em;
+    }
+    .list{
+        list-style:none;
+    }
+    /* Убирает лишние стили из подвала */
+    .link-underline{
+        text-decoration: none;
+        color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.7;
+        font-style: normal;
+       
+    }
+.text .text-light:focus{
+    color: var(--accent-color);
+}
+/* Ховер для телефона и майла */
+.text-light:hover{
+    color: var(--accent-color);
+}
+/*Создание основной палитры -основной текст-(#757575)*/
+/*Заголовки у меня цвета:(color: #212121;) h1 цвет(#FFFFFF;),навигация (#212121)*/
+/*h1 цвет(#FFFFFF;)*/
+/*Цвет текста который описывает картинки (color: #757575;)*/
+/*Цвет для раздела "чем мы занимаемся" (color: #FFFFFF;)
+/*Для футера цвет (color: #FFFFFF;), а для mail и tel (color: rgba(255, 255, 255, 0.6);*/
+/*Цвет синей части лого (color: #2196F3;),для чёрной (color: #000000;)*/
+/*Цвет Логотипов клиента и соц.сети (AFB1B8 100%)
+/*Акцент (background: #2196F3;)*/
+.logo{
+    color: var(--accent-color);
+    font-family: Raleway,cursive;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
+}
+.color-logo{
+    color: var(--head-color);
+}
+.site-nav .link{
+  color: var(--head-color); 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+.contact-info .contact-info-color{
+  color: rgba(255, 255, 255, 0.6);
+    
+}
+/* Стили для адреса  */
+.link-underline-address{
+font-style: normal;
+text-decoration: none;
+color: var(--white-color);  
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+}
+/* Кнопки фильтрации */
+.button-appearance{
+    color: var(--head-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Roboto;
+
+}
+/* Фокус для кнопки */
+.list .button-appearance:focus,
+.list .button-appearance:hover{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+
+/* Работа с секциями (заголовки) */
+.section-title{
+    color: var(--head-color);
+}
+.contact-info-color:hover{
+    color: var(--accent-color);
+}
+.contact-info-color{
+    font-weight: 400;
+}
+/* Стили основных заголовков */
+.section-title-style{
+    color: var(--head-color);   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    }
+/* Стили для текста технохряк */
+.section-title-text{   
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
+}
+/* Стили для текста под картинками */
+.section-title-info{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
+
+}
+/* Подвал */
+.button{
+    color:var(--white-color);
+    background-color: var(--accent-color);
+}
+.button.primary{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.call-to-act{
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    }
