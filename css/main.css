@@ -4,6 +4,15 @@
 --head-color: #212121;
 --white-color:#FFFFFF
 }
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
 
 body{
     background-color: var(--white-color);
@@ -12,6 +21,8 @@ body{
     letter-spacing: 0.03em;
 }
 .list{
+    padding: 0;
+    margin: 0;
     list-style:none;
 }
 /* Убирает подчёркивание и добавляет стили */
@@ -44,6 +55,13 @@ body{
 /*Акцент (background: #2196F3;)*/
 
 /* Работа с header*/
+.container{
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 1230px;
+    outline: 2px solid tomato;
+}
 .logo{
     color: var(--accent-color);
     font-family: Raleway,cursive;
@@ -85,9 +103,19 @@ body{
     font-size: 14px;
     line-height: 1.1;
     text-transform: uppercase;
+
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+/* Секция "Чем мы занимаемся */
+.section-info{
+    margin-top: 94px;
 }
 /* H3 к именам */
 .section-title-info{
+margin-top: 30px;
+margin-bottom: 0px;
+
 color: var(--head-color);
 font-weight: 500;
 font-size: 16px;
@@ -99,16 +127,25 @@ line-height: 1.18;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
+
+ margin-top: 10px;
+ margin-bottom: 0;
 }
 /* Название профессий */
 .section-title-name{
+    margin-top: 10px;
+    margin-bottom: 0px;
     
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
 }
+
 /* Стили основных заголовков */
 .section-title-style{
+margin-top: 94px;    
+margin-bottom: 50px;
+
 color: var(--head-color);   
 font-weight: 700;
 font-size: 36px;
@@ -116,35 +153,61 @@ line-height: 1.16;
 text-align: center;
 }
 /* Стили для главного заголовка */
+.section-hero{
+    text-align: center;
+    margin-bottom: 94px;
+}
+
 .section-title-hero{
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+    
+    
     background: #2F303A;
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.363;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    А
+
+  
+    
 }
+
 .contact-info-color:hover{
     color: var(--accent-color);
 }
 
 /* Подвал,работа с кнопкой*/
 .button{
+    min-width: 200px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
     color: var(--white-color);
     background-color: var(--accent-color);
     text-decoration: none;
-     letter-spacing: 0.06em;
+
+    letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+
     align-items: center;
     text-align: center;
+     
+    
 
 }
 .button.primary{
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-right: 62px;
+     
+    border: 1px solid transparent;
     color: var(--white-color);
     background-color: var(--accent-color);
     font-weight: 700;
