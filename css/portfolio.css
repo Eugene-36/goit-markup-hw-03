@@ -2,9 +2,21 @@
     --primary-text-color:#757575;
     --accent-color:#2196F3;
     --head-color: #212121;
-    --white-color:#FFFFFF 
+    --white-color:#FFFFFF;
+    --bg-color:#F5F4FA;
+
     }
-    
+
+    html {
+        box-sizing: border-box;
+      }
+      
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+
     body{
         background-color: FFFFFF;
         color:#757575 ;
@@ -12,6 +24,8 @@
         letter-spacing: 0.03em;
     }
     .list{
+        padding: 0;
+        margin: 0;
         list-style:none;
     }
     /* Убирает лишние стили из подвала */
@@ -40,12 +54,20 @@
 /*Цвет синей части лого (color: #2196F3;),для чёрной (color: #000000;)*/
 /*Цвет Логотипов клиента и соц.сети (AFB1B8 100%)
 /*Акцент (background: #2196F3;)*/
+
+.container{
+margin-left: auto;
+margin-right: auto;
+
+width: 1230px;
+outline: 2px solid tomato;
+}
 .logo{
-    color: var(--accent-color);
-    font-family: Raleway,cursive;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
+color: var(--accent-color);
+font-family: Raleway,cursive;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
 
 }
 .color-logo{
@@ -81,38 +103,56 @@ letter-spacing: 0.03em;
 }
 /* Кнопки фильтрации */
 .button-appearance{
-    color: var(--head-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    font-family: Roboto;
+background-color:var(--bg-color);
+min-width: 73px;
+border: 1px solid transparent;
+border-radius: 4px;
+text-align: center;
+margin-bottom: 8px;
 
+color: var(--head-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+font-family: Roboto;
+
+}
+/* Добавляет интервал между кнопками и сновным контентом */
+.container.maine{
+margin-top: 34px;
 }
 /* Фокус для кнопки */
 .list .button-appearance:focus,
 .list .button-appearance:hover{
-    color: var(--white-color);
-    background-color: var(--accent-color);
+color: var(--white-color);
+background-color: var(--accent-color);
 }
 
 
 /* Работа с секциями (заголовки) */
 .section-title{
-    color: var(--head-color);
+color: var(--head-color);
 }
 .contact-info-color:hover{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 .contact-info-color{
-    font-weight: 400;
+font-weight: 400;
+}
+/* Отступы от навигции */
+.section{
+margin-top: 94px;
 }
 /* Стили основных заголовков */
 .section-title-style{
-    color: var(--head-color);   
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+margin-top: 20px;
+margin-bottom: 0;
+
+color: var(--head-color);   
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 
     }
 /* Стили для текста технохряк */
@@ -124,25 +164,37 @@ line-height: 1.8;
 }
 /* Стили для текста под картинками */
 .section-title-info{
+margin-top: 4px;
+margin-bottom: 0;
+
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
 
 }
 /* Подвал */
+.container.footer{
+margin-top: 94px;
+}
 .button{
-    color:var(--white-color);
-    background-color: var(--accent-color);
+color:var(--white-color);
+background-color: var(--accent-color);
 }
 .button.primary{
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.8;
+padding-top: 10px;
+padding-left: 29px;
+padding-right: 62px;
+border-radius: 4px;
+border: 1px solid transparent;
+
+color: var(--white-color);
+background-color: var(--accent-color);
+font-weight: bold;
+font-size: 16px;
+line-height: 1.8;
 }
 .call-to-act{
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
     }
