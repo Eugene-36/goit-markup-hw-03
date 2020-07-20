@@ -56,18 +56,18 @@ body{
 
 /* Работа с header*/
 .container{
-    margin-left: auto;
-    margin-right: auto;
-   
-    width: 1230px;
-    outline: 2px solid tomato;
+margin-left: auto;
+margin-right: auto;
+
+width: 1230px;
+outline: 2px solid tomato;
 }
 .logo{
-    color: var(--accent-color);
-    font-family: Raleway,cursive;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
+color: var(--accent-color);
+font-family: Raleway,cursive;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
 
 }
 .color-logo{
@@ -76,36 +76,36 @@ body{
 
 
 .site-nav .link{
-  color: var(--head-color); 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+color: var(--head-color); 
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
 
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 .site-nav .link.current{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 .contact-info .contact-info-color{
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.18;
+color: rgba(255, 255, 255, 0.6);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.18;
     
 }
 /* Работа с секциями (заголовки) */
 .section-title{
-    color: var(--head-color);   
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    text-transform: uppercase;
+color: var(--head-color);   
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+text-transform: uppercase;
 
-    margin-top: 30px;
-    margin-bottom: 0;
+margin-top: 30px;
+margin-bottom: 0;
 }
 /* Секция "Чем мы занимаемся */
 .section-info{
@@ -133,12 +133,12 @@ line-height: 1.7;
 }
 /* Название профессий */
 .section-title-name{
-    margin-top: 10px;
-    margin-bottom: 0px;
-    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
+margin-top: 10px;
+margin-bottom: 0px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
 }
 
 /* Стили основных заголовков */
@@ -154,27 +154,25 @@ text-align: center;
 }
 /* Стили для главного заголовка */
 .section-hero{
-    text-align: center;
-    margin-bottom: 94px;
+text-align: center;
+margin-bottom: 94px;
 }
 
 .section-title-hero{
-    margin-top: 0;
-    margin-bottom: 30px;
-    
-    
-    
-    background: #2F303A;
-    color: var(--white-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.363;
-    
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 30px;
 
-  
-    
+
+
+background: #2F303A;
+color: var(--white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.363;
+
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
 }
 
 .contact-info-color:hover{
@@ -182,37 +180,38 @@ text-align: center;
 }
 
 /* Подвал,работа с кнопкой*/
+.container.basement{
+    margin-top: 94px;
+}
 .button{
-    min-width: 200px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    padding: 10px 32px;
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    text-decoration: none;
+min-width: 200px;
+border: 1px solid transparent;
+border-radius: 4px;
+padding: 10px 32px;
+color: var(--white-color);
+background-color: var(--accent-color);
+text-decoration: none;
 
-    letter-spacing: 0.06em;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+letter-spacing: 0.06em;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
 
-    align-items: center;
-    text-align: center;
+align-items: center;
+text-align: center;
      
-    
-
 }
 .button.primary{
-    padding-top: 10px;
-    padding-left: 29px;
-    padding-right: 62px;
-     
-    border: 1px solid transparent;
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
+padding-top: 10px;
+padding-left: 29px;
+padding-right: 62px;
+    
+border: 1px solid transparent;
+color: var(--white-color);
+background-color: var(--accent-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
 }
 .link-underline-additional{
 color: var(--white-color);
@@ -229,4 +228,5 @@ font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 }
+
 
