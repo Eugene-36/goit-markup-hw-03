@@ -59,6 +59,9 @@ body{
 .page-header{
     background-color: yellowgreen;
 }
+.color-footer{
+    background: #2F303A;
+}
 /*Создание основной палитры -основной текст-(#757575)*/
 /*Заголовки у меня цвета:(color: #212121;) h1 цвет(#FFFFFF;),навигация (#212121)*/
 /*h1 цвет(#FFFFFF;)*/
@@ -188,18 +191,18 @@ line-height: 1.14;
 } 
 
 /* Информация о команде (позиционирование) */
-/* .team{
+.team{
     display: flex;
-    
-    
-} */
-.info-team{
-    width: calc((100% - 2 * 30px) / 3 ) ;
-    margin-right:30px;
+    flex-wrap: wrap;
 }
-.info-team:nth-child(3n){
-    margin-right: 0;
-} 
+.info-team{
+    width: calc((100% - 30px * 3) / 4);
+}
+.info-team:not(:last-child){
+    margin-right: 30px;
+
+}
+
 /* Постоянные клиенты (позиционирование) */
 .clients{
     display: flex;
@@ -326,6 +329,25 @@ align-items: center;
 text-align: center;
      
 }
+/* Футер (позиционирование) */
+.contact-info-new{
+    margin-top: 9px;
+}
+.detailes{
+margin-top: 9px;
+}
+.location{
+margin-top: 20px;
+}
+
+.basment{
+ margin: 0px;
+ padding: 0px;
+align-items: center; 
+justify-content: center;
+margin-bottom: 30px;
+}
+
 .button.primary{
 padding-top: 10px;
 padding-left: 29px;
@@ -346,6 +368,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
+
 
 }
 .call-to-act{
