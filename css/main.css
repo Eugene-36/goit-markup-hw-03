@@ -51,7 +51,7 @@ body{
     background-color: royalblue;
 }
 .section.new{
-    background-color: seagreen;
+    background-color: white;
 }
 .section.fuck{
     background-color: teal;
@@ -154,7 +154,64 @@ line-height: 1.14;
 .nav-info >.contact-info{
     margin-left: auto; 
 }
+/* Список качеств ( позиционирование) */
+.list-qualities{
+    display: flex;
+}
+.list-qualities-text{
+    width: calc((100% - 90px) / 3);
+    background-color: violet;
+ 
+}
+.list-qualities-text{
+    min-width: 270px;
+    margin-right: 20px;
+}
+.list-qualities-text .item + .item{
+    margin-left: 30px;
+}
+.list-qualities-text:nth-child(4n){
+    margin-right: 0;
+    } 
+/* Секция о работе компании (позиционирование) */
+.company{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+.company-item{
+    width: calc((100% - 2 * 30px) / 3 ) ;
+    margin-right:30px;
+}
+ .company-item:nth-child(3n){
+    margin-right: 0;
+} 
 
+/* Информация о команде (позиционирование) */
+/* .team{
+    display: flex;
+    
+    
+} */
+.info-team{
+    width: calc((100% - 2 * 30px) / 3 ) ;
+    margin-right:30px;
+}
+.info-team:nth-child(3n){
+    margin-right: 0;
+} 
+/* Постоянные клиенты (позиционирование) */
+.clients{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.clients-logo{
+    margin-right: 30px;
+}
+.clients-logo:nth-child(6n){
+    margin-right: 0;
+} 
 
 .site-nav .link:hover, 
 .site-nav .link:focus{
@@ -178,8 +235,7 @@ font-size: 14px;
 line-height: 1.1;
 text-transform: uppercase;
 
-margin-top: 30px;
-margin-bottom: 0;
+margin: 0px;
 }
 
 
