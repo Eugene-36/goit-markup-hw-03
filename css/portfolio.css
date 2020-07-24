@@ -5,52 +5,55 @@
     --white-color:#FFFFFF;
     --bg-color:#F5F4FA;
 
+}
+
+html {
+    box-sizing: border-box;
+    }
+    
+    *,
+    *::before,
+    *::after {
+    box-sizing: inherit;
     }
 
-    html {
-        box-sizing: border-box;
-      }
-      
-      *,
-      *::before,
-      *::after {
-        box-sizing: inherit;
-      }
-
-    body{
-        background-color: FFFFFF;
-        color:#757575 ;
-        font-family: Roboto,sans-serif;
-        letter-spacing: 0.03em;
-    }
-    .list{
-        padding: 0;
-        margin: 0;
-        list-style:none;
-    }
-    /* Убирает лишние стили из подвала */
-    .link-underline{
-        text-decoration: none;
-        color: var(--primary-text-color);
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.7;
-        font-style: normal;
-       
-    }
+body{
+    background-color: FFFFFF;
+    color:#757575 ;
+    font-family: Roboto,sans-serif;
+    letter-spacing: 0.03em;
+}
+.list{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+}
+/* Убирает лишние стили из подвала */
+.link-underline{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+    
+}
 .text .text-light:focus{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 /* Ховер для телефона и майла */
 .text-light:hover{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 /* Для проверки цвета */
 /* .section.color{
-    background-color: teal;
+background-color: teal;
 } */
 .color-fast{
-    background-color: yellow;
+background-color: yellow;
+}
+.color-abyss{
+    background: #2F303A;
 }
 
 
@@ -85,6 +88,8 @@ padding-left: 15px;
 padding-right: 15px;  
 }
 .logo{
+margin-right: 70px;
+    
 color: var(--accent-color);
 font-family: Raleway,cursive;
 font-weight: bold;
@@ -96,11 +101,58 @@ line-height: 1.19;
     color: var(--head-color);
 }
 .site-nav .link{
-  color: var(--head-color); 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
+color: var(--head-color); 
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
 }
+/* Позиционирование для навигации */
+.site-nav{
+display: flex;
+}
+.site-nav .item  + .item{
+margin-left: 50px;
+    
+}
+.navigation{
+display: flex;
+align-items: center;
+}
+.new-address.item{
+
+align-items: center;
+    
+}
+/* Выравнивание адреса,тел  */
+.contact-info{
+display: flex; 
+
+}
+.contact-info .item + .item{
+margin-left: 30px;
+}
+.nav-info{
+display: flex;
+align-items: center;
+}
+.nav-info >.contact-info{
+margin-left: auto; 
+}
+/* Выравнивание для кнопок */
+.filter{
+    display: flex;
+    justify-content: center;
+}
+.filter .filter-bt + .filter-bt{
+    margin-left: 8px;
+}
+.list-qualities-text:nth-child(5n){
+    margin-right: 0;
+    } 
 .site-nav .link:hover, 
 .site-nav .link:focus{
     color: var(--accent-color);
@@ -193,24 +245,42 @@ line-height: 1.8;
 }
 /* Выравнивание основного контента */
 .flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #2196F3;
+display: flex;
+flex-wrap: wrap;
+background-color: #2196F3;
 }
 .flex-element{
-    width: calc((100% - 60px) / 3);
-    background-color: violet;
-    margin-right: 30px;
-    margin-bottom: 30px; 
-    
+width: calc((100% - 60px) / 3);
+background-color: violet;
+margin-right: 30px;
+margin-bottom: 30px; 
+
 }
 .flex-element:nth-child(3n){
 margin-right: 0;
 } 
 .flex-element:nth-last-child(-n + 3){
-    margin-bottom: 0px;
+margin-bottom: 0px;
 }
 
+/* Позиционирование подвала */
+.contact-info-new{
+margin-top: 9px;
+}
+.detailes{
+margin-top: 9px;
+}
+.location{
+margin-top: 20px;
+}
+
+.basment{
+align-items: center; 
+min-width: 206px;
+}
+.social-net{
+    justify-content: center;
+}
 
 .button{
 color:var(--white-color);
