@@ -51,7 +51,7 @@ body{
     background-color: royalblue;
 }
 .section.new{
-    background-color: white;
+    background: #F5F4FA;
 }
 .section.fuck{
     background-color: teal;
@@ -197,6 +197,8 @@ line-height: 1.14;
 }
 .info-team{
     width: calc((100% - 30px * 3) / 4);
+    background-color: #FFFFFF;
+    text-align: center;
     
 }
 .info-team:not(:last-child){
