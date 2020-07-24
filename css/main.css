@@ -197,11 +197,21 @@ line-height: 1.14;
 }
 .info-team{
     width: calc((100% - 30px * 3) / 4);
+    
 }
 .info-team:not(:last-child){
     margin-right: 30px;
 
 }
+.team{
+    display: flex;
+    justify-content: center;
+ 
+}
+.team-social:not(:last-child){
+    margin-right: 10px;
+}
+
 
 /* Постоянные клиенты (позиционирование) */
 .clients{
@@ -246,11 +256,13 @@ margin: 0px;
 .section-title-info{
 margin-top: 30px;
 margin-bottom: 0px;
+text-align: center;
 
 color: var(--head-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
+
 }
 
 /* Основной текст описания кртинок */
@@ -266,6 +278,7 @@ line-height: 1.7;
 .section-title-name{
 margin-top: 10px;
 margin-bottom: 0px;
+text-align: center;
 
 font-weight: 400;
 font-size: 16px;
@@ -368,7 +381,6 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
-
 
 }
 .call-to-act{
