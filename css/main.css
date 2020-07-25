@@ -180,7 +180,10 @@ line-height: 1.14;
 .company{
     display: flex;
     flex-wrap: wrap;
- 
+    
+}
+.company img {
+   display: block;
 }
 .company-item{
     width: calc((100% - 2 * 30px) / 3 ) ;
