@@ -182,9 +182,9 @@ line-height: 1.14;
     flex-wrap: wrap;
     
 }
-.company img {
+ /* .company img {
    display: block;
-}
+}  */
 .company-item{
     width: calc((100% - 2 * 30px) / 3 ) ;
     margin-right:30px;
@@ -211,12 +211,18 @@ line-height: 1.14;
 .team{
     display: flex;
     justify-content: center;
- 
+    
 }
 .team-social:not(:last-child){
     margin-right: 10px;
 }
-
+.team img {
+   display: block;
+} 
+.class{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Постоянные клиенты (позиционирование) */
 .clients{
@@ -226,6 +232,13 @@ line-height: 1.14;
 }
 .clients-logo{
     margin-right: 30px;
+      
+}
+.style-posh{
+    min-width: 170px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 19px 65px;
 }
 .clients-logo:nth-child(6n){
     margin-right: 0;
@@ -292,8 +305,8 @@ line-height: 1.18;
 
 /* Стили основных заголовков */
 .section-title-style{
-margin-top: 94px;    
-margin-bottom: 50px;
+margin-top: 0px;  
+/* margin-bottom: 50px; */
 
 color: var(--head-color);   
 font-weight: 700;
@@ -334,6 +347,7 @@ min-width: 200px;
 border: 1px solid transparent;
 border-radius: 4px;
 padding: 10px 32px;
+
 color: var(--white-color);
 background-color: var(--accent-color);
 text-decoration: none;
@@ -358,13 +372,16 @@ margin-top: 9px;
 margin-top: 20px;
 }
 
-.basment{
-align-items: center; 
-min-width: 206px;
+.center{
+display: flex; 
+justify-content: center;
+align-items: center;
+
+
 }
-.social-net{
+/* .social-net{
     justify-content: center;
-}
+} */
 
 .button.primary{
 padding-top: 10px;
