@@ -197,7 +197,7 @@ line-height: 1.14;
 .team{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .info-team{
@@ -208,23 +208,14 @@ line-height: 1.14;
 }
 .info-team:not(:last-child){
     margin-right: 30px;
+}
 
-}
-.team{
-    display: flex;
-    justify-content: center;
-    
-}
 .team-social:not(:last-child){
     margin-right: 10px;
 }
 .team img {
    display: block;
 } 
-.class{
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /* Постоянные клиенты (позиционирование) */
 .clients{
