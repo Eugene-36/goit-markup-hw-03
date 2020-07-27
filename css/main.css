@@ -197,7 +197,9 @@ line-height: 1.14;
 .team{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 .info-team{
     width: calc((100% - 30px * 3) / 4);
     background-color: #FFFFFF;

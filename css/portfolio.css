@@ -30,13 +30,13 @@ body{
 }
 /* Убирает лишние стили из подвала */
 .link-underline{
-    text-decoration: none;
-    color: var(--primary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: normal;
-    
+text-decoration: none;
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.7;
+font-style: normal;
+
 }
 .text .text-light:focus{
 color: var(--accent-color);
@@ -144,25 +144,25 @@ margin-left: auto;
 }
 /* Выравнивание для кнопок */
 .filter{
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 .filter .filter-bt + .filter-bt{
-    margin-left: 8px;
+margin-left: 8px;
 }
 .list-qualities-text:nth-child(5n){
-    margin-right: 0;
-    } 
+margin-right: 0;
+} 
 .site-nav .link:hover, 
 .site-nav .link:focus{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 .site-nav .link.current{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 .contact-info .contact-info-color{
-  color: rgba(255, 255, 255, 0.6);
-    
+color: rgba(255, 255, 255, 0.6);
+
 }
 /* Стили для адреса  */
 .link-underline-address{
@@ -250,7 +250,7 @@ flex-wrap: wrap;
 background-color: #2196F3;
 }
 .flex-element{
-width: calc((100% - 60px) / 3);
+min-width: 370px;
 background-color: violet;
 margin-right: 30px;
 margin-bottom: 30px; 
@@ -273,13 +273,41 @@ margin-top: 9px;
 .location{
 margin-top: 20px;
 }
-
-.basment{
-align-items: center; 
-min-width: 206px;
+.flex-new{
+display: flex; 
+justify-content: center;
+/* align-items: center;  */
 }
+.addition-soild{
+min-width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+
+padding: 15px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 12px;
+} 
+.common{
+align-items: center;
+margin-left: 30px;
+justify-content: center;
+}
+
+.separation{
+display: flex;
+margin-top: 20px;   
+} 
+.social-network:not(:last-child){
+    margin-right: 10px;
+} 
+/* .basment{
+ align-items: center; 
+min-width: 206px;
+} */
 .social-net{
-    justify-content: center;
+justify-content: center;
 }
 
 .button{
@@ -300,6 +328,7 @@ font-size: 16px;
 line-height: 1.8;
 }
 .call-to-act{
+color: #FFFFFF;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
