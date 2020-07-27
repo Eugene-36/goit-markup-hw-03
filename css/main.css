@@ -373,15 +373,14 @@ margin-top: 20px;
 }
 
 .flex-new{
-width: 1200px;
- display: flex; 
+display: flex; 
 justify-content: center;
-align-items: center;
+/* align-items: center;  */
 
 }
 .block-one{
-width: 260px;    
-margin-left: 30px;
+/* width: 260px;     */
+/* margin-left: 30px; */
 }
 .addition-soild{
 min-width: 358px;
@@ -399,18 +398,23 @@ margin-right: 12px;
 .social-network:not(:last-child){
     margin-right: 10px;
 }
-.blocke-two{
- /* display: flex;  */
+/* .blocke-two{
+ 
 min-width: 570px;
 margin-left: 30px; 
 
-}  
-
-/* .separation{
-  display: flex;
-  margin-top: 29px; 
-     
 }   */
+ .common{
+  align-items: center;
+  margin-left: 30px;
+  justify-content: center;
+} 
+
+.separation{
+  display: flex;
+  margin-top: 20px; 
+     
+}  
 
 .button.primary{
 padding-top: 10px;
