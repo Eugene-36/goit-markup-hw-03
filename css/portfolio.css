@@ -146,6 +146,8 @@ margin-left: auto;
 .filter{
 display: flex;
 justify-content: center;
+padding-top: 94px;
+padding-bottom: 50px;
 }
 .filter .filter-bt + .filter-bt{
 margin-left: 8px;
@@ -245,9 +247,13 @@ line-height: 1.8;
 }
 /* Выравнивание основного контента */
 .flex-container{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 94px;
 display: flex;
 flex-wrap: wrap;
-background-color: #2196F3;
+/* background-color: #2196F3; */
 }
 .flex-element{
 min-width: 370px;
@@ -262,7 +268,6 @@ margin-right: 0;
 .flex-element:nth-last-child(-n + 3){
 margin-bottom: 0px;
 }
-
 /* Позиционирование подвала */
 .contact-info-new{
 margin-top: 9px;
@@ -274,31 +279,17 @@ margin-top: 9px;
 margin-top: 20px;
 }
 .flex-new{
-display: flex; 
-justify-content: center;
+display: flex;
+padding-bottom: 60px; 
+/* justify-content: center; */
 /* align-items: center;  */
 }
-.addition-soild{
-min-width: 358px;
-height: 50px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-border-radius: 4px;
-
-padding: 15px;
-margin-top: 0px;
-margin-bottom: 0px;
-margin-right: 12px;
-} 
 .common{
 align-items: center;
 margin-left: 30px;
 justify-content: center;
 }
 
-.separation{
-display: flex;
-margin-top: 20px;   
-} 
 .social-network:not(:last-child){
     margin-right: 10px;
 } 
@@ -332,4 +323,4 @@ color: #FFFFFF;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
-    }
+}
