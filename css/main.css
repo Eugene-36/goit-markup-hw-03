@@ -157,9 +157,14 @@ line-height: 1.14;
 .nav-info >.contact-info{
     margin-left: auto; 
 }
+/* Герой */
+.attempt{
+    padding-bottom: 15px;
+}
 /* Список качеств ( позиционирование) */
 .list-qualities{
     display: flex;
+    padding-bottom: 94px;
 }
 .list-qualities-text{
     width: calc((100% - 90px) / 3);
@@ -180,6 +185,7 @@ line-height: 1.14;
 .company{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 94px;
     
 }
  /* .company img {
@@ -194,17 +200,29 @@ line-height: 1.14;
 } 
 
 /* Информация о команде (позиционирование) */
-.team{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
+.position-for-all{
+display: flex;
+padding-bottom: 94px;
 }
-
 .info-team{
-    width: calc((100% - 30px * 3) / 4);
-    background-color: #FFFFFF;
-    text-align: center;
-    
+width: calc((100% - 30px * 3) / 4);
+background-color: #FFFFFF;
+text-align: center;
+}
+.team-social{
+display: flex;
+/* justify-content: center; */
+margin-top: 16px;
+}
+.team-social-item{
+justify-content: center;
+padding-right: 10px;
+padding-bottom: 20px;
+padding-left: 0px;
+padding-top: 0px;
+}
+.team-social-item .link:hover{
+color: var(--accent-color);
 }
 .info-team:not(:last-child){
     margin-right: 30px;
@@ -216,12 +234,29 @@ line-height: 1.14;
 .team img {
    display: block;
 } 
+.section-title-info-member{
+margin-top: 30px;
+margin-bottom: 0px;
 
+color: var(--head-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+}
+.section-title-name-member{
+margin-top: 10px;
+margin-bottom: 0px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18; 
+}
 /* Постоянные клиенты (позиционирование) */
 .clients{
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    padding-bottom: 106px;
 }
 .clients-logo{
     margin-right: 30px;
@@ -317,8 +352,6 @@ text-align: center;
 margin-top: 0;
 margin-bottom: 30px;
 
-
-
 background: #2F303A;
 color: var(--white-color);
 font-weight: 900;
@@ -333,7 +366,6 @@ text-transform: uppercase;
 .contact-info-color:hover{
     color: var(--accent-color);
 }
-
 
 .button{
 min-width: 200px;
@@ -366,28 +398,16 @@ margin-top: 20px;
 }
 
 .flex-new{
-display: flex; 
-justify-content: center;
-/* align-items: center;  */
+display: flex;
+padding-bottom: 60px; 
+align-items: center;
 
 }
 .block-one{
 /* width: 260px;     */
 /* margin-left: 30px; */
 }
-.addition-soild{
-min-width: 358px;
-height: 50px;
-border: 1px solid rgba(255, 255, 255, 0.3);
-border-radius: 4px;
 
-padding: 15px;
-margin-top: 0px;
-margin-bottom: 0px;
-margin-right: 12px;
-
-
-} 
 .social-network:not(:last-child){
     margin-right: 10px;
 }
@@ -400,15 +420,9 @@ margin-left: 30px;
  .common{
   align-items: center;
   margin-left: 30px;
-  justify-content: center;
+
 } 
-
-.separation{
-  display: flex;
-  margin-top: 20px; 
-     
-}  
-
+ 
 .button.primary{
 padding-top: 10px;
 padding-left: 29px;
