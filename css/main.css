@@ -211,7 +211,7 @@ text-align: center;
 }
 .team-social{
 display: flex;
-/* justify-content: center; */
+justify-content: center;
 margin-top: 16px;
 }
 .team-social-item{
