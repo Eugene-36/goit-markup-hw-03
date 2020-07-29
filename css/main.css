@@ -44,9 +44,10 @@ body{
 }
 
 /* Задний фон чтобы посмотреть есть пробелы или нет */
-/* .section.color{
+ /* .section.color{
     background-color: rebeccapurple;
-}
+    padding-bottom: 94px;
+} */
 .section.shed{
     background-color: royalblue;
 }
@@ -54,11 +55,8 @@ body{
     background: #F5F4FA;
 }
 .section.fuck{
-    background-color: teal;
+    background: #FFFFFF;
 }
-.page-header{
-    background-color: yellowgreen;
-} */
 .information-about-team{
     background: #F5F4FA;  
 }
@@ -86,7 +84,7 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 
-padding-top: 94px;
+/* padding-top: 94px; */
 
 }
 
@@ -162,19 +160,17 @@ line-height: 1.14;
     margin-left: auto; 
 }
 /* Герой */
-.attempt{
-    padding-bottom: 15px;
-}
 
 /* Список качеств ( позиционирование) */
 .list-qualities{
     display: flex;
-    padding-bottom: 94px;
 }
 .list-qualities-text{
     width: calc((100% - 90px) / 3);
-    /* background-color: violet; */
- 
+}
+.section-qualities{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .list-qualities-text{
     min-width: 270px;
@@ -188,29 +184,36 @@ line-height: 1.14;
     } 
 /* Секция о работе компании (позиционирование) */
 .company{
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 94px;
-    
+display: flex;
+flex-wrap: wrap;
+/* padding-bottom: 94px; */
+
 }
- /* .company img {
+ .company img {
    display: block;
-}  */
+}  
 .company-item{
-    width: calc((100% - 2 * 30px) / 3 ) ;
-    margin-right:30px;
+width: calc((100% - 2 * 30px) / 3 ) ;
+margin-right:30px;
 }
- .company-item:nth-child(3n){
-    margin-right: 0;
+.company-item:nth-child(3n){
+margin-right: 0;
 } 
+.section-work-company{
+padding-bottom: 94px;    
+}
 
 /* Информация о команде (позиционирование) */
 .position-for-all{
 display: flex;
+}
+.space-top{
+padding-top: 94px;
 padding-bottom: 94px;
 }
 .info-team{
 width: calc((100% - 30px * 3) / 4);
+padding-bottom: 24px;
 background-color: #FFFFFF;
 text-align: center;
 }
@@ -222,9 +225,11 @@ margin-top: 16px;
 .team-social-item{
 justify-content: center;
 padding-right: 10px;
-padding-bottom: 20px;
 padding-left: 0px;
 padding-top: 0px;
+}
+.site-nav-yet a{
+padding: 0px 15px 20px 15px
 }
 .team-social-item .link:hover{
 color: var(--accent-color);
@@ -236,26 +241,29 @@ color: var(--accent-color);
 .team-social:not(:last-child){
     margin-right: 10px;
 }
-.team img {
+.position-for-all img{
    display: block;
 } 
 
 /* Постоянные клиенты (позиционирование) */
 .clients{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding-bottom: 106px;
+display: flex;
+justify-content: center;
+justify-content: space-around;
+}
+.constant-client{
+padding-top: 94px;
+padding-bottom: 94px;    
 }
 .clients-logo{
     margin-right: 30px;
       
 }
 .style-posh{
-    min-width: 170px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    padding: 19px 65px;
+min-width: 170px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+padding: 19px 65px;
 }
 .clients-logo:nth-child(6n){
     margin-right: 0;
@@ -385,31 +393,34 @@ margin-top: 9px;
 .location{
 margin-top: 20px;
 }
-
+.shape-footer{
+width: 1600px;
+height: 252px;   
+padding-top: 60px;
+padding-bottom: 60px;  
+}
 .flex-new{
 display: flex;
-padding-bottom: 60px; 
-align-items: center;
-
 }
-.block-one{
-/* width: 260px;     */
-/* margin-left: 30px; */
+.social{
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+.social a{ 
+padding: 0px 15px 20px 15px
+}
+.social a:hover{
+color:var(--accent-color)
 }
 
 .social-network:not(:last-child){
-    margin-right: 10px;
+margin-right: 10px;
 }
-/* .blocke-two{
- 
-min-width: 570px;
-margin-left: 30px; 
-
-}   */
- .common{
-  align-items: center;
-  margin-left: 30px;
-
+.common{
+align-items: center;
+margin-left: 214px;
+margin-right: 69px;
 } 
  
 .button.primary{
