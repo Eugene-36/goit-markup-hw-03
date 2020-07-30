@@ -260,16 +260,25 @@ text-align: center;
 display: flex;
 justify-content: center;
 margin-top: 16px;
+padding-right: 32px;
+padding-left: 32px;
 }
 .team-social-item{
 justify-content: center;
-padding-right: 10px;
-padding-left: 0px;
-padding-top: 0px;
+/* margin-right: 10px; */
+margin-left: 0px;
+margin-top: 0px;
+}
+.team-social-item:not(:last-child){
+    margin-right: 10px;
+
 }
 .site-nav-yet a{
-padding: 0px 15px 20px 15px
+display: block;
+height: 44px;
+width: 44px;
 }
+
 .team-social-item .link:hover{
 color: var(--accent-color);
 }
@@ -434,7 +443,7 @@ margin-top: 9px;
 margin-top: 20px;
 }
 .shape-footer{
-width: 1600px;
+width: 1170px;
 height: 252px;   
 padding-top: 60px;
 padding-bottom: 60px;  
@@ -444,12 +453,10 @@ display: flex;
 }
 .social{
 display: flex;
-align-items: center;
+/* align-items: center; */
 margin-top: 20px;
 }
-.social a{ 
-padding: 0px 15px 20px 15px
-}
+
 .social a:hover{
 color:var(--accent-color)
 }
@@ -458,11 +465,14 @@ color:var(--accent-color)
 margin-right: 10px;
 }
 .common{
-align-items: center;
+
 margin-left: 214px;
 margin-right: 69px;
 } 
- 
+.straight-line{
+align-items: center; 
+outline: solid 1px tomato;   
+}
 .button.primary{
 padding-top: 10px;
 padding-left: 29px;
