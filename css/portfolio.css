@@ -8,14 +8,14 @@
 }
 
 html {
-    box-sizing: border-box;
-    }
-    
-    *,
-    *::before,
-    *::after {
-    box-sizing: inherit;
-    }
+box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
 
 body{
 background-color: FFFFFF;
@@ -280,8 +280,14 @@ margin-top: 9px;
 .location{
 margin-top: 20px;
 }
+.color-logo-white{
+color: var(--white-color);
+}
+.block-one{
+
+}
 .shape-footer{
-width: 1600px;
+width: 1200px;
 height: 252px;   
 padding-top: 60px;
 padding-bottom: 60px;  

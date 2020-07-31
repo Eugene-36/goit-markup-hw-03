@@ -15,47 +15,47 @@ html {
   }
 
 body{
-    background-color: var(--white-color);
-    color:#757575 ;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
+background-color: var(--white-color);
+color:#757575 ;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
 }
 .list{
-    padding: 0;
-    margin: 0;
-    list-style:none;
+padding: 0;
+margin: 0;
+list-style:none;
 }
 /* Убирает подчёркивание и добавляет стили */
 .link-underline{
-    color: var(--primary-text-color);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: normal;
+color: var(--primary-text-color);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.7;
+font-style: normal;
 }
 
 
 .text .text-light:focus{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 .text-light:hover{
-    color: var(--accent-color);
+color: var(--accent-color);
 }
 
 /* Задний фон чтобы посмотреть есть пробелы или нет */
- /* .section.color{
-    background-color: rebeccapurple;
-    padding-bottom: 94px;
+/* .section.color{
+background-color: rebeccapurple;
+padding-bottom: 94px;
 } */
 .section.shed{
-    background-color: royalblue;
+background-color: royalblue;
 }
 .section.new{
-    background: #F5F4FA;
+background: #F5F4FA;
 }
 .section.fuck{
-    background: #FFFFFF;
+background: #FFFFFF;
 }
 .information-about-team{
     background: #F5F4FA;  
@@ -448,6 +448,12 @@ height: 252px;
 padding-top: 60px;
 padding-bottom: 60px;  
 }
+.color-footer{
+color: var(--white-color);
+}
+.delete{
+    margin-right: 0px;
+} 
 .flex-new{
 display: flex;
 }
