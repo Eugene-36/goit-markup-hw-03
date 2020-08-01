@@ -146,8 +146,17 @@ line-height: 1.14;
 /* Основное выравнивание (номер,адрес, остальная навигация) */
 
 .contact-info{
-    display: flex; 
-    
+    display: flex;   
+}
+.icon-phone:hover{
+background-color: (var(--accent-color));
+}
+.contact-info img{
+margin-right: 10px;
+align-items: center;
+}
+.icon-phone > img:hover{
+ background-color: var(--accent-color);   
 }
 .contact-info .item + .item{
     margin-left: 30px;
@@ -505,7 +514,44 @@ color: #FFFFFF;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
-
 }
 
+.style-inst{
+background-image:url(../img/inst-white-new.svg); 
+background-size: 20px;
+background-color: rgba(255, 255, 255, 0.1);
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+}
+.style-twit{
+background-image: url(../img/twit-white.svg);    
+background-size: 20px;
+background-color: rgba(255, 255, 255, 0.1);
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+}
+.style-face{
+background-image: url(../img/face-white.svg);    
+/* background-size: s 20px; */
+background-color: rgba(255, 255, 255, 0.1);
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+}
+.style-in{
+background-image: url(../img/linkedin-white.svg);
+background-size: 20px;
+background-color: rgba(255, 255, 255, 0.1);
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 50%;
+}
+.style-inst:hover, 
+.style-twit:hover, 
+.style-face:hover, 
+.style-in:hover{
+background-color:var(--accent-color);
+}
 
