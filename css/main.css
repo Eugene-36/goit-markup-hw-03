@@ -476,7 +476,7 @@ margin-right: 69px;
 } 
 .straight-line{
 align-items: center; 
-outline: solid 1px tomato;   
+/* outline: solid 1px tomato;    */
 }
 .button.primary{
 padding-top: 10px;
